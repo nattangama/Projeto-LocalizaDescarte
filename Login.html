@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entrar</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="../img/logomarca/favicon.ico"
+	type="image/x-icon">
+<!-- Importando CSS -->
+<link rel="stylesheet" href="resources/css/styleLogin.css">
+</head>
+
+<body>
+	<div>
+		<p>
+			<strong><a id="home_login" href="index.html">Inicio</a></strong>
+		</p>
+	</div>
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="#">
+				<h1>Crie sua conta</h1>
+				<span>Preencha os dados para registrar-se</span> <input type="text"
+					placeholder="Nome" /> <input type="date"
+					placeholder="Data de nascimento" /> <input type="text"
+					placeholder="XXX.XXX.XXX-XX" size="15" /> <input
+					type="text" placeholder="(00)0 0000-0000" maxlength="14"
+					placeholder="Telefone" /> <input type="text"
+					placeholder="XXXXX-XXX" size="9" /> <input
+					type="email" placeholder="E-mail" /> <input type="password"
+					placeholder="Senha" /> <input type="password"
+					placeholder="Confirmar Senha" />
+				<button>Registra-se</button>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form action="#">
+				<h1>Entrar</h1>
+				<span>Entre com a sua conta</span> <input type="email"
+					placeholder="E-mail" /> <input type="senha" placeholder="Senha" />
+				<a href="#">Esqueceu sua senha?</a>
+				<button>Entrar</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Já possui uma conta?</h1>
+					<p>Para realizar o seu login, clique no botão abaixo</p>
+					<button class="ghost" id="signIn">Entre-já</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Seja bem-vindo a Localiza Descarte</h1>
+					<p>Preencha os campos com os seus dados para registrar-se na
+						nossa plataform</p>
+					<button class="ghost" id="signUp">Registrar-se</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Importando script js para a transição das div de login e cadastro -->
+	<script type="text/javascript" src="resources/js/scriptlogin.js"></script>
+</body>
+
+</html>
